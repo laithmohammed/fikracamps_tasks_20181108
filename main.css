@@ -1,0 +1,32 @@
+* { margin:0px;padding:0px; }
+/* main div tag */
+.containter { width:80%;margin:auto; }
+/* header that contain fikracamps logo */
+.header { width:100%; }
+.logo   { width:200px;padding:50px; }
+/* Articales container */
+#Articales { display:flex; }
+/* Recent Links */
+#RecentLinks { flex-grow:2;flex-basis:1200px; }
+#RecentLinks article { display:flex;margin-bottom:20px }
+#RecentLinks article div:nth-child(1) { display:flex;flex-basis:150px; }
+#RecentLinks article div:nth-child(1) img { height:150px;width:150px; }
+#RecentLinks article div:nth-child(2) { position:relative;padding-left:20px;padding-right:80px; }
+#RecentLinks article div:nth-child(2) :nth-child(1) { 
+	text-transform:capitalize;font-weight:bolder;display:block;
+	font-family: 'Libre Baskerville', serif;font-size:24px;padding:0px 4px 0px 0px;
+}
+#RecentLinks article div:nth-child(2) :nth-child(2) { 
+	display:block;color:silver;padding:0px 10px 0px 20px;
+	font-family: 'Source Sans Pro', sans-serif;font-size:18px;padding-bottom:40px;
+}
+#RecentLinks article div:nth-child(2) :nth-child(3) { position:absolute;bottom:0px;color:blue;font-family: 'Source Sans Pro', sans-serif; }
+/* Most Visited */
+#MostVisited { flex-grow:2;flex-basis:600px; }
+#MostVisited article { position: relative;background-color:black;margin-bottom:20px; }
+#MostVisited article div:nth-child(1) { width:100%;padding-top:100%;background-position:center center;background-size:cover;opacity:0.5; }
+#MostVisited article time{ position:absolute;top:0px;color:white;font-weight:bolder;padding:20px; }
+#MostVisited article div:nth-child(3) { position:absolute;bottom:0px;padding:20px; }
+#MostVisited article div:nth-child(3) span { display:block;color:white; }
+#MostVisited article div:nth-child(3) :nth-child(1) { text-transform:capitalize;font-weight:bolder;font-size:34px;padding-bottom:20px; }
+#MostVisited article div:nth-child(3) :nth-child(2) { font-size:18px; }
